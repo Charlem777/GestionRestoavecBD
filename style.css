@@ -1,0 +1,222 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.plats-list {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.plats-details {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+.plats-list h2,
+.plats-details h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.plats-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.plats-list li {
+  margin-bottom: 5px;
+}
+
+.plats-details label {
+  display: block;
+  margin-top: 10px;
+}
+
+.plats-details input[type="text"],
+.plats-details input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.plats-details input[type="text"]:focus,
+.plats-details input[type="file"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.plats-details input[type="text"]:hover,
+.plats-details input[type="file"]:hover {
+  border-color: #888;
+}
+
+.plats-details button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plats-details button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.plats-details button:hover {
+  background-color: #45a049;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.plats-list {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.plats-details {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+#descriptionPlat {
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#descriptionPlat:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.plats-list h2,
+.plats-details h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.plats-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.plats-list li {
+  margin-bottom: 5px;
+}
+
+.plats-details label {
+  display: block;
+  margin-top: 10px;
+}
+
+.plats-details input[type="text"],
+.plats-details input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.plats-details input[type="text"]:focus,
+.plats-details input[type="file"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.plats-details input[type="text"]:hover,
+.plats-details input[type="file"]:hover {
+  border-color: #888;
+}
+
+.plats-details button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.plats-details button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.plats-details button:hover {
+  background-color: #45a049;
+}
+#imageContainer {
+  max-width: 5px; /* Spécifiez la largeur maximale souhaitée */
+  max-height: 5px; /* Spécifiez la hauteur maximale souhaitée */
+}
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  background-color: #e53935;
+}
